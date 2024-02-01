@@ -4,7 +4,6 @@ import pytest
 from cluster.silhouette import Silhouette
 from cluster.utils import make_clusters
 from sklearn.metrics import silhouette_samples
-from sklearn.datasets import make_blobs
 from cluster.kmeans import KMeans
 
 
